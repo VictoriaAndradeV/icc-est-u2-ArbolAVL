@@ -24,9 +24,9 @@ public class AVLTrre {
   }
 
 
-  public void insert(Node node, int value){
+  public void insert(int value){
     System.out.println("Nodo a insertar");
-    root= insertRec(node, value);
+    root= insertRec(root, value);
   }
 
 
