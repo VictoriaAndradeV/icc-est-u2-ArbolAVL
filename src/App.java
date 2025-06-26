@@ -1,5 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        AVLTrre arbol = new AVLTrre();
+        arbol.insert(10);
+        arbol.insert(20);
+        arbol.insert(15);
+        System.out.println(arbol);
     }
 }
