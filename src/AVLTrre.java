@@ -132,5 +132,10 @@ public class AVLTrre {
         + preorder(n.getIzquierda())
         + preorder(n.getDerecha());
   }
-
+  
+  @Override
+  public String toString() {
+    // quitamos espacios sobrantes al inicio/fin
+    return preorder(root).trim();
+  }
 }
