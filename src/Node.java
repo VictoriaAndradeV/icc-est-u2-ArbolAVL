@@ -8,6 +8,7 @@ public class Node {
     this.derecha = null;
     this.value = value;
     this.izquierda = null;
+    this.height  = 1; 
   }
 
   public Node getDerecha() {
